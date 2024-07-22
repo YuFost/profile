@@ -1,0 +1,107 @@
+@import url('https://use.fontawesome.com/releases/v6.6.0/css/all.css');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.card-white h1 {
+  color: #3D1452;
+  font-size: 45px;
+  font-weight: 500;
+}
+body {
+  font-family: 'Outfit';
+  font-weight: 250;
+  color: #4e4e4e;
+  background-color: #faf5fa;
+    opacity: 0.9;
+    background-image:  radial-gradient(#55286F 0.5px, transparent 0.5px), radial-gradient(#55286F 0.5px, #faf5fa 0.5px);
+    background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+  font-size: 17px;
+  line-height: 20px;
+}
+.card-white {
+  background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 32px 32px 32px;
+  margin: 16px 0;
+}
+
+.img-rounded {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h1, h2 {
+  color: #55286F;
+  font-family: 'Outfit';
+  font-size: 30px;
+  font-weight: 350;
+  line-height: normal;
+}
+h3 {
+  color: #55286F;
+  font-family: 'Outfit';
+  font-size: 17px;
+  font-weight: 250;
+  line-height: normal;
+  margin-bottom: 0%;
+}
+
+.btn-purple {
+  text-decoration: none;
+  background-color: #55286F;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 500;
+  line-height: 3;
+  width: 46px;
+}
+
+
+
+.btn-purple:hover {
+  background-color: #3D1452;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li  {
+  display: inline;
+  font-size: 24px;
+  margin: 0 8px;
+}
